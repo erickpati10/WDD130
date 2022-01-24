@@ -5,23 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Rapids - visit us</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style_w3.css" />
     <meta
       name="description"
-      content="This is a place where you can plan the best adveture day over the most popular
-    river"
+      content="This is a place where you can plan the best adveture day over the most popular river"
     />
   </head>
   <body>
     <header>
       <picture>
-        <img src="pictures/rapids_logo.jpg" alt="Company Logo" />
+        <img class="logo" src="images_w3/rapids_logo.jpg" alt="Company Logo" />
       </picture>
-      <div class="header">
-        <picture>
-          <img src="pictures/river_headerpicture.jpg" alt=" Header picture" />
-        </picture>
-      </div>
-
       <nav>
         <ul>
           <li><a href="">Home</a></li>
@@ -30,19 +28,26 @@
           <li><a href="">Info</a></li>
         </ul>
       </nav>
+
+      <div class="img_hero">
+        <picture>
+          <img src="images_w3/river_headerpicture.jpg" alt=" Header picture" />
+        </picture>
+      </div>
     </header>
     <main>
-      <div class="picture hero">
+      <section class="cta">
+        <h1>The Rapids</h1>
+      </section>
+      <div class="img_right">
         <picture>
-          <img src="pictures/deercreek-portrait-main.jpg" alt="" />
+          <img src="images_w3/deercreek-portrait-main.jpg" alt="" />
         </picture>
-        <section class="cta">
-          <h1>The Rapids</h1>
-        </section>
       </div>
-      <div>
+
+      <div class="img_left">
         <picture>
-          <img src="pictures/ik-rapid-main.jpg" alt="" />
+          <img src="images_w3/ik-rapid-main.jpg" alt="" />
         </picture>
         <section class="cta">
           <h1>The Rapids</h1>
@@ -51,14 +56,15 @@
     </main>
     <footer>
       <section>
-        <h2>Come to enjoy a day with us</h2>
+        <h2>Come to enjoy a day with us!!</h2>
       </section>
       <div class="icons">
-        <picture>
-          <img src="pictures/instagram-icon.png" alt="instagram" />
-          <img src="pictures/facebook-icon.png" alt="facebook" />
-          <img src="pictures/whatsapp-icon.png" alt="whatsapp" />
-        </picture>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-twitter"></a>
+      </div>
+      <div class="copyright">
+        <p>&copy; The Rapids - Erick Patino - WDD130</p>
       </div>
     </footer>
   </body>

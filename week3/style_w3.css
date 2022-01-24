@@ -1,0 +1,27 @@
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+/* .img_hero {
+  width: 980px;
+  height: 60px;
+} */
+.img_right {
+  text-align: right;
+}
+
+.fa-facebook {
+  font-size: 30px;
+  color: blue;
+}
+
+.fa-instagram {
+  font-size: 30px;
+  color: red;
+}
+
+.fa-twitter {
+  font-size: 30px;
+  color: lightskyblue;
+}
