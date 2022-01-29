@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+body {
+  font-size: 18px;
+  background-color: rgba(245, 245, 245, 0.692);
+}
+.name {
+  color: rgb(255, 60, 0);
+}
+.expectation {
+  color: rgb(127, 146, 255);
+}
+.vision {
+  color: brown;
+}
+
+footer,
+header {
+  background-color: rgb(238, 255, 0);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: rgb(0, 119, 255);
+}
+.section_h2 {
+  text-align: center;
+  font-style: oblique;
+  font-size: 2em;
+}
+
+.page {
+  max-width: 960px;
+  margin: 1rem auto;
+}
