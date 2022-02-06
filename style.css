@@ -1,16 +1,20 @@
 img {
-    width: 100px;
-    height: 120px;
-    object-fit: cover;
+  width: 100px;
+  height: 120px;
+  object-fit: cover;
 }
 ul {
-    list-style-type: number;
+  list-style-type: number;
 }
 strong {
-    color: red;
-    font-style: normal;
+  color: red;
+  font-style: normal;
 }
 em {
-    color: blue;
-    font-style: normal;       
+  color: blue;
+  font-style: normal;
+}
+
+body {
+  background-color: greenyellow;
 }
