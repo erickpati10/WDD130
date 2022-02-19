@@ -172,9 +172,12 @@ header {
 
 .social_icons a {
   text-decoration: none;
-  padding: 3rem;
-}
 
+  margin-left: 12px;
+}
+.social_icons {
+  text-align: right;
+}
 .page {
   max-width: 960px;
   margin: 1rem auto;
