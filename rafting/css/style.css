@@ -40,93 +40,67 @@ nav a {
   margin-left: 2rem;
 }
 
-.img_hero {
+.image_hero img {
   width: 100%;
-  height: auto;
   position: relative;
-  /* margin-left: 0.6rem; */
 }
-.overlay_info h2 {
-  margin: 0 0 0.5rem;
-  font-family: "Times New Roman", Times, serif;
-}
-.overlay_info p {
-  font-size: large;
-  font-style: oblique;
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
-  border-radius: 2rem;
-  box-shadow: 0 0 2rem rgb(109, 11, 11);
-}
-.overlay_info {
-  position: absolute;
-  top: 50px;
-  right: 50px;
-  background: rgb(114, 188, 218);
 
-  padding: 1.5rem;
-  box-shadow: 0 0 30px #333;
+.button_text {
+  position: absolute;
+  font-family: "Sansita Swashed", cursive;
+  font-size: 1.5rem;
+  top: 20%;
+  right: 45%;
   opacity: 0.8;
-  border-radius: 35%;
+  border: 0.25rem solid rgb(221, 93, 43);
+  border-radius: 50px;
+  background: rgb(232, 247, 242);
+  padding: 1rem 1rem;
+  color: rgb(44, 7, 7);
 }
 
 .expectation h2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 2rem;
-  margin: 1rem 2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
   padding: 1rem;
-  line-height: 2rem;
-  color: rgb(136, 138, 63);
+  color: rgb(41, 150, 113);
   text-align: center;
-  box-shadow: 0 0 40px;
-  /* background-color: antiquewhite; */
 }
 .expectation p {
   grid-column: 1/1;
   font-size: 1.2rem;
-  margin: 1rem 2rem;
+  margin: 2rem;
   padding: 1rem;
-  /* box-shadow: 0 0 30px #333; */
-  /* background-color: rgb(255, 178, 127); */
-  /* border-radius: 5%; */
 }
 
 .img_left img,
 .img_right img {
   width: 80%;
-  height: 100%;
-  margin: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   padding: 0.5rem;
-  border-radius: 1rem;
-  border-radius: 45% 15% 45% 15%;
+  border-radius: 10%;
   box-shadow: 0 0 50px;
 }
 
 .vision {
   grid-column: 2/3;
   grid-row: 2/4;
-  /* font-family: sans-serif; */
   font-size: 1.2rem;
   margin: 1rem;
   padding: 1rem;
-  /* color: rgb(219, 14, 14); */
-  /* box-shadow: 0 0 30px #333; */
-  /* background-color: aquamarine; */
-  /* border-radius: 15%; */
 }
 .vision h2 {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   color: rgb(41, 150, 113);
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 0.5rem 0.5rem;
   padding: 1rem;
-  box-shadow: 0 0 30px;
-  /* background-color: rgb(142, 255, 127); */
-  /* border-radius: 25%; */
 }
 .vision p {
   padding: 1rem;
+  margin: 2rem;
 }
 
 header {
@@ -158,19 +132,16 @@ header {
   font-size: 2rem;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-  margin: 0.5rem;
-  color: blue;
+  margin: 3rem;
+  color: rgb(41, 150, 113);
   box-shadow: 0 0 40px;
-  /* background-color: rgb(73, 207, 10); */
-  /* border-radius: 100%; */
   padding: 0.5rem;
 }
 .bottom_text p {
   font-size: 1.2rem;
   text-align: center;
   color: rgb(53, 41, 41);
-  /* background-color: aquamarine; */
-  margin: 1rem;
+  margin: 5rem;
   padding: 0.5rem;
 }
 
@@ -182,7 +153,7 @@ header {
   text-align: right;
 }
 .page {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 1rem auto;
 }
 footer {
@@ -194,6 +165,88 @@ footer {
   grid-gap: 100px;
   padding: 1rem;
   margin: 0.5rem;
+}
+
+/* -----------------------------------------------blog page----------------------------------------------------------------------------------- */
+
+.blog_title {
+  text-align: center;
+  padding: 3rem;
+  margin: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-style: italic;
+  color: rgb(44, 40, 40);
+}
+.question,
+.text {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 25px;
+  margin: 1rem;
+}
+
+.top_1 img {
+  float: right;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 45px;
+  border: 0.5rem solid rgb(201, 48, 21);
+}
+.question p,
+.text p {
+  text-align: justify;
+  font-size: 22px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.block_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.image {
+  /* grid-column: 1/2; */
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.block_2 img {
+  width: 420px;
+  border-radius: 45px;
+  border: 0.5rem solid rgb(201, 48, 21);
+}
+.block2_title,
+.text h2,
+.question h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5rem;
+  text-align: center;
+  font-style: italic;
+  padding: 1rem;
+}
+
+/*********************************************************FAQ**************************************************************************************************************/
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  padding: 3rem;
+  margin: 3rem;
+  background-color: rgb(158, 184, 223);
+}
+.faq_title {
+  text-align: center;
+  padding: 4rem;
+  font-size: 2rem;
+}
+
+.questions {
+  margin: 3rem;
 }
 /* 
 @media only screen and (max-width: 600px) {
