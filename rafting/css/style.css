@@ -47,20 +47,23 @@ nav a {
 
 .button_text {
   position: absolute;
-  font-family: "Sansita Swashed", cursive;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: bold;
   font-size: 1.5rem;
   top: 20%;
   right: 45%;
-  opacity: 0.8;
-  border: 0.25rem solid rgb(221, 93, 43);
-  border-radius: 50px;
-  background: rgb(232, 247, 242);
+  opacity: 0.7;
+  border: 0.25rem solid rgb(71, 31, 15);
+  border-radius: 1rem;
+  background: rgb(15, 31, 25);
   padding: 1rem 1rem;
-  color: rgb(44, 7, 7);
+  color: white;
 }
 
-.expectation h2 {
+.expectation h2,
+.vision h2 {
   font-family: "Times New Roman", Times, serif;
+  font-style: italic;
   font-size: 3rem;
   padding: 1rem;
   color: rgb(41, 150, 113);
@@ -79,7 +82,7 @@ nav a {
   margin-bottom: 2rem;
   margin-top: 2rem;
   padding: 0.5rem;
-  border-radius: 10%;
+  border-radius: 2rem;
   box-shadow: 0 0 50px;
 }
 
@@ -90,14 +93,7 @@ nav a {
   margin: 1rem;
   padding: 1rem;
 }
-.vision h2 {
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  color: rgb(41, 150, 113);
-  font-size: 3rem;
-  margin: 0.5rem 0.5rem;
-  padding: 1rem;
-}
+
 .vision p {
   padding: 1rem;
   margin: 2rem;
@@ -120,6 +116,8 @@ header {
   grid-gap: 20px;
   width: 100%;
   background-color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .section_h2 {
@@ -176,7 +174,6 @@ footer {
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
   font-style: italic;
-  color: rgb(44, 40, 40);
 }
 .question,
 .text {
@@ -193,13 +190,6 @@ footer {
   margin-bottom: 1rem;
   border-radius: 45px;
   border: 0.5rem solid rgb(201, 48, 21);
-}
-.question p,
-.text p {
-  text-align: justify;
-  font-size: 22px;
-  margin: 0.5rem;
-  padding: 0.5rem;
 }
 .block_2 {
   display: grid;
