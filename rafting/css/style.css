@@ -60,6 +60,11 @@ nav a {
   color: white;
 }
 
+.button_text:hover {
+  cursor: pointer;
+  color: rgb(26, 177, 169);
+}
+
 .expectation h2,
 .vision h2 {
   font-family: "Times New Roman", Times, serif;
