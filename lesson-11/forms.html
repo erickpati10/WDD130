@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="formfield">
+        <label for="name"> Name </label>
+        <input type="text" id="name" placeholder="Name" required="required" />
+      </div>
+      <div class="formfield">
+        <label for="email"> E-mail </label>
+        <input
+          type="email"
+          id="email"
+          placeholder="E-mail"
+          required="required"
+        />
+      </div>
+      <div class="formfield">
+        <label for="phone"> Phone # </label>
+        <input
+          type="number"
+          id="phone"
+          placeholder="Phone Number"
+          required="required"
+        />
+      </div>
+      <div class="formfield">
+        <label for="date_of_birth"> Date of Birth </label>
+        <input type="date" id="date_of_birth" required="required" />
+      </div>
+      <div class="formfield">
+        <label for="textarea">Comment</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="6"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+      <button type="reset">Clear</button>
+    </main>
+  </body>
+</html>
