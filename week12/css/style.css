@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(168, 150, 150);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.03em;
+  font-size: 18px;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.card {
+  margin-top: 13rem;
+  width: 400px;
+  border-radius: 25px;
+  border: 1px solid rgb(168, 157, 157);
+
+  background-color: white;
+}
+.card_image {
+  position: relative;
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+}
+.heart_image {
+  position: absolute;
+  top: 25%;
+  right: 42%;
+  width: 45px;
+  transition: transform 0.5s ease-in;
+}
+.heart_image:hover {
+  transform: perspective(250px) translateZ(70px);
+}
+.title h1 {
+  text-align: center;
+  padding: 0.5rem;
+}
+.title p {
+  padding: 1rem;
+  font-size: 17px;
+}
+.size p {
+  font-variant: unicase;
+}
+.btn_text {
+  border-radius: 8px;
+  padding: 5px 55px;
+  background-color: rgb(229, 236, 234);
+  outline: 0;
+  border: 0;
+  color: black;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.btn_text:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(8, 8, 17);
+}
