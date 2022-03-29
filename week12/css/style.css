@@ -15,7 +15,7 @@ body {
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 5rem;
+  grid-gap: 2rem;
   padding: 1rem;
   margin: 0.5rem;
 }
@@ -24,6 +24,7 @@ footer {
   width: 400px;
   border-radius: 25px;
   border: 1px solid rgb(168, 157, 157);
+  box-shadow: 25px;
 
   background-color: white;
 }
